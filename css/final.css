@@ -1,0 +1,52 @@
+#encabezado img{
+    width: 50%;
+    height: 130px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#encabezado{
+    background-image: url(../Imagenes/enca.png);
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+#letras{
+    width: 150px;
+    height: 75px;
+}
+#letras img{
+    margin-left: 10px;
+    top: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../Imagenes/gato2.jpg");
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#pinterior{
+    width: 50%;
+    height: 80%;
+    background-color: red;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+#pinterior h1{
+    font-size: 58px;
+}

@@ -1,0 +1,40 @@
+/*
+#cuadro1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+    position: absolute;
+    animation-name: recorrido;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes recorrido{
+    
+    0%{left: -100px; top: 1%; background: red;}
+    50%{background: green;}
+    100%{left: calc(100% + 10px); top: 1px; background: black}
+}*/
+
+body{
+    background-color: gray
+}
+
+.navbar li a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.carousel-inner img{
+    width: 600px;
+    height: 300px;
+   
+}
+#carouselExampleIndicators{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    left: 30%;
+}
